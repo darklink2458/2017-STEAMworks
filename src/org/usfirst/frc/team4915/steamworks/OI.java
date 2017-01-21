@@ -82,6 +82,7 @@ public class OI
     {
         if (m_robot.getIntake().initialized())
         {
+            m_robot.getIntake().setIntakeStick(m_auxStick);
             m_intakeOn.toggleWhenPressed(new IntakeCommand(m_robot.getIntake()));
         }
     }

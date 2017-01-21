@@ -4,10 +4,15 @@ package org.usfirst.frc.team4915.steamworks;
 import org.usfirst.frc.team4915.steamworks.subsystems.Drivetrain;
 import org.usfirst.frc.team4915.steamworks.subsystems.Intake;
 
+import com.ctre.CANTalon.FeedbackDevice;
+import com.ctre.CANTalon.TalonControlMode;
+
 import edu.wpi.first.wpilibj.IterativeRobot;
+import edu.wpi.first.wpilibj.Joystick.AxisType;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class Robot extends IterativeRobot
 {
